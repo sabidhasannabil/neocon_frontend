@@ -1,0 +1,76 @@
+//
+// team.scss
+//
+
+.team-img {
+  border: 2px dotted rgba($primary, 0.15);
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  img{
+    padding: 20px;
+  }
+  .team-badge {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    text-align: center;
+    transition: all 0.5s;
+    opacity: 0;
+    p{
+      padding: 3px 10px;
+      position: relative;
+      display: inline-block;
+    }
+   }
+   &:hover{
+     box-shadow: $box-shadow;
+     img{
+       opacity: 0.8;
+     }
+     .team-badge{
+       opacity: 1;
+     }
+   }
+ }
+
+
+
+ 
+ .team-space{
+   padding: 45px;
+ }
+
+ .team-social-icon{
+  i{
+   position: absolute;
+   display: inline-block;
+   width: 34px;
+   height: 34px;
+   border-radius: 50%;
+   font-size: 15px;
+   line-height: 34px;
+   margin-top: -34px;
+   margin-left: 30px;
+   background: $primary;
+   color: $white;
+   text-align: center;
+  }
+ }
+
+ .team-social{
+   i{
+   width: 36px;
+   height: 36px;
+   display: inline-block;
+   line-height: 36px;
+   border-radius: 50%;
+   text-align: center;
+   background: $primary;
+   font-size: 15px;
+   color: $white;
+   }
+ }
+ 

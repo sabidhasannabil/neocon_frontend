@@ -1,0 +1,48 @@
+//
+// general.scss
+//
+
+/* ==============
+   01. General 
+   ============== */
+
+body {
+  font-family: $font-family-base;
+  overflow-x: hidden !important;
+  position: relative;
+  color: $dark;
+  font-size: $font-size-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-base;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+
+
+.btn,
+.btn:focus,
+button,
+button:focus {
+  outline: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  outline: none;
+}
+
+p {
+  line-height: 25px;
+}
+
+.row > * {
+  position: relative;
+}

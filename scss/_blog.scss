@@ -1,0 +1,39 @@
+//
+// blog.scss
+//
+
+
+.blog-lable{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: $primary;
+  color: $white;
+  text-align: center;
+  .date{
+      line-height: 34px;
+  }
+  .month{
+      line-height: 1px;
+  }
+}
+
+.blog-content{
+  border-radius: 6px;
+  box-shadow: $box-shadow;
+  padding: 15px;
+  width: 150%;
+  background-color: $white;
+  left: -110px;
+  position: relative;
+}
+
+.blog-img{
+  img{
+    border-radius: 6px;
+  }
+}
+
+.blog-title{
+  flex: 1;
+}

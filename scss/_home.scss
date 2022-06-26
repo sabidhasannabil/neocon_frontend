@@ -1,0 +1,187 @@
+//
+// home.scss
+//
+
+
+.play-btn {
+  background-color: $primary;
+  color: $white;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  font-size: 22px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.play-shadow {
+  vertical-align: middle;
+}
+
+.home-modal{
+  border: 0;
+  background-color: transparent;
+  .btn-close{
+    width: 36px;
+    height: 36px;
+    background-color: rgba($white, 0.5);
+    border-radius: 10px;
+    position: relative;
+    top: 70px;
+    z-index: 3;
+    &:hover,
+    &:focus{
+      opacity: 0.5;
+    }
+  }
+  video{
+    &:focus{
+      outline: none;
+    }
+  }
+}
+
+.video-box{
+ width: 100%;
+}
+
+
+// home-2
+
+.bg-home-2{
+  background-image: url(../images/bg-2.jpg);
+  background-position: center;
+  padding: 200px 0px 250px 0px;
+}
+
+.search-form {
+  input {
+      padding: 16px 20px;
+      width: 100%;
+      font-size: 15px;
+      color: $muted !important;
+      border: none;
+      outline: none !important;
+      padding-right: 160px;
+      padding-left: 30px;
+      background-color: $white;
+      border-radius: 30px;
+      box-shadow: $box-shadow;
+  }
+  button {
+      position: absolute;
+      top: 6px;
+      right: 7px;
+      outline: none !important;
+      font-size: 15px;
+      padding: 9px 30px;
+  }
+  form {
+      position: relative;
+      max-width: 600px;
+      margin: 0px auto;
+  }
+  }
+
+  // home 3
+
+  .bg-home-3{
+    background-image: url(../images/overlay-5.png);
+    background-position: center;
+    padding: 290px 0px 270px 0px;
+
+  }
+  
+
+
+// home-4
+
+.home-slider {
+  position: relative;
+}
+
+.home-slider .carousel-control-next,
+.carousel-control-prev {
+  width: 6%;
+}
+
+.home-slider .carousel-item,
+.home-slider .carousel {
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+}
+
+.home-slider .carousel-item {
+  background-position: center center;
+  background-size: cover;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: $primary;
+    background-size: 100% 40%;
+    border-radius: 50%;
+    
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1;
+}
+
+.home-4-desc{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+// home 5
+
+.bg-home-5{
+  background-image: url(../images/overlay-5.png);
+  background-position: center;
+  height: 100vh;
+}
+
+
+.home-registration-form {
+  border-radius: 3px;
+  box-shadow: $box-shadow;
+  .registration-form {
+    label {
+      font-size: 15px;
+    }
+  }
+}
+
+.registration-input-box {
+  border: none !important;
+  border-radius: 0px !important;
+  color: $muted;
+  border-bottom: 1px solid #c5c5c5 !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  &:focus{
+    border-color: $primary !important;
+  }
+}
+
+
+// home-6 
+
+.bg-home-6{
+  background-image: url(../images/bg-3.jpg);
+  background-position: center;
+  height: 100vh;
+}
+
+.slidero {
+  position: relative;
+  z-index: 1;
+}

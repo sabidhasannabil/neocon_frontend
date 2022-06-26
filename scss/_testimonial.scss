@@ -1,0 +1,87 @@
+//
+// testimonial.scss
+//
+
+.bg-testimonial{
+  background: url(../images/bg-2.png);
+    background-position: center;
+}
+
+.client-box{
+  box-shadow: $box-shadow;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px 80px;
+
+  .client-img{
+    img{
+      width: 130px;
+      height: 130px;
+      border: 2px dotted rgba($primary, 0.15);
+      padding: 10px;
+      position: relative;
+      margin-left: -80px;
+    }
+  }
+  
+  
+  .client-content{
+    flex: 1;
+  }
+  
+  .client-title {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  
+  .client-icon{
+    i{
+        font-size: 50px;
+        color: $primary;
+    }
+  }
+  
+}
+
+
+// carousel
+.carousel-indicators {
+  align-items: center;
+  position: absolute;
+  left: auto;
+  right: -50px;
+  display: block;
+  margin-right: 0;
+  margin-left: 0;
+  top: 40px;
+  button{
+      width: 50px !important;
+      height: 50px !important;
+      margin: 10px 5px !important;
+      border-radius: 50% !important;
+      border: 3px solid transparent !important;
+      cursor: pointer;
+      overflow: hidden;
+      display: block;
+  }
+  .active {
+      opacity: 1;
+      border: 3px solid $primary !important;
+      z-index: 3;
+  }
+}
+
+
+
+// CLENT IMAGES
+
+.client-images{
+  img{
+    max-height: 35px;
+    opacity: 0.7;
+    &:hover{
+      opacity: 0.9;
+    }
+  }
+}
